@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+.header {
+  background-color: #f1861a;
+  margin: 0;
+  padding: 20px;
+}
+
+.work {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+.over {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 200px;
+  font-weight: 550;
+}
+
+.work {
+  display: flex;
+  gap: 20px;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: Helvetica;
+  font-size: 18px;
+  margin: 0;
+  max-width: 500px;
+}
