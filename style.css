@@ -133,6 +133,23 @@ a .project-lank {
   color: #f1861a;
 }
 
+.footer {
+  color: gray;
+  margin: 0px;
+  padding: 20px;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hej h5,
+h6 {
+  padding-top: 200px;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 750px) {
   h1 {
     font-size: 32px;
@@ -160,6 +177,7 @@ a .project-lank {
 
   .project {
     flex-direction: column;
+    height: 100vh;
   }
   .project-lank {
     padding-top: 56px;
@@ -167,8 +185,14 @@ a .project-lank {
   }
   .project .vanster {
     font-size: 24px;
+    width: 100%;
+    height: 90vh;
   }
   .project .hoger {
     width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
   }
 }
